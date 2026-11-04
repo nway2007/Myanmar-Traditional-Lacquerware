@@ -2,21 +2,81 @@
 <html lang="en">
     <head>
         <title>contact</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <style>
-            body{background-image:url(images/content.jpg);background-repeat:no-repeat;background-size:cover;display:flex;justify-content:center
-                ;align-items:center;min-height:100vh;margin:0}
-            .contact{padding:20px;border-radius:20px;background-color:wheat;width:fit-content;height:fit-content}
-            .contact h2{font-size:50px;text-align:center;font-style:italic;color:goldenrod}
-            .contact p{text-align:center;font-size:25px;color:rgb(47, 46, 46)}
+            body{
+                background-image: url(images/content.jpg);
+                background-repeat: no-repeat;
+                background-size: cover;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                min-height: 100vh;
+                margin: 0;
+            }
+            .contact{
+                padding: 20px;
+                border-radius: 20px;
+                background-color: wheat;
+                width: fit-content;
+                height: fit-content;
+            }
+            .contact h2{
+                font-size: 50px;
+                text-align: center;
+                font-style: italic;
+                color: goldenrod;
+            }
+            .contact p{
+                text-align: center;
+                font-size: 25px;
+                color: rgb(47, 46, 46);
+            }
+
+            .btn a{
+                text-decoration: none;
+            }
+            button{
+                border-radius: 30% 5% 30% 5%;
+                background-color: blanchedalmond;
+                border: solid;
+                padding: 5px 15px;
+                color: brown;
+            }
+            #btn a{
+                text-decoration: none;
+            }
+            #form{
+                position: absolute;
+                top: 10px;
+                left: 10px;
+                text-align: left;
+            }
         </style>
     </head>
-     <body>
-    <div class="contact">
+    <body>
+         <form id="form">
+            <button class="btn">
+                <a href="index.html">Home</a>
+            </button>
+            <button class="btn"> 
+                <a href="type.html">Type</a>
+            </button>
+            <button class="btn"> 
+                <a href="detail.html">Detail</a>
+            </button>
+            <button class="btn"> 
+                <a href="contact.html">Contact</a>
+            </button>
+         </form>
+
+         <div class="contact">
             <h2>Contact Us</h2>
-            <p>We's here to listen.Reach out to us anytime.<br>
-              Email:khinnwaynwayoo91@gmail.com<br>
-               phone number:09755479874<br>
-             address:Magway,Minhla Township,Mazalitaw Village
+            <p>We're here to listen. Reach out to us anytime.<br>
+              Email: khinnwaynwayoo91@gmail.com<br>
+               Phone number: 09755479874<br>
+             Address: Magway, Minhla Township, Mazalitaw Village
             </p>
-        </div></body>
+         </div>
+    </body>
 </html>
